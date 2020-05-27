@@ -1,0 +1,22 @@
+{
+  "name": "balqish",
+  "version": "1.0.0",
+  "description": "Personal Projects",
+  "main": "app.js",
+  "scripts": {
+    "tester": "npm start --prefix tester"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErpanOmer/Balqish.git"
+  },
+  "keywords": [
+    "Personal Projects"
+  ],
+  "author": "ErpanOmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErpanOmer/Balqish/issues"
+  },
+  "homepage": "https://github.com/ErpanOmer/Balqish#readme"
+}
