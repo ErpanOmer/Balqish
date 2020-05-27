@@ -4,7 +4,9 @@
   "description": "Personal Projects",
   "main": "app.js",
   "scripts": {
-    "tester": "npm start --prefix tester"
+    "tester": "npm start --prefix tester",
+    "webpage:dev": "npm start --prefix webpage",
+    "webpage:build": "npm run build --prefix webpage"
   },
   "repository": {
     "type": "git",
