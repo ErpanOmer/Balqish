@@ -1,14 +1,12 @@
 const { disableEsLint, overrideDevServer, addWebpackAlias, watchAll, override } = require("customize-cra")
-const path = require("path");
-
-console.log(1111)
+const path = require("path")
 
 module.exports = {
   webpack: override(
     // usual webpack plugin
     disableEsLint(),
     addWebpackAlias({
-      '@ag': path.resolve(__dirname, "src/ag")
+      '@': path.resolve(__dirname, "src")
     })
   ),
   devServer: overrideDevServer(
