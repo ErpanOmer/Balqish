@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ErpanOmer/Balqish/issues"
   },
-  "homepage": "https://github.com/ErpanOmer/Balqish#readme"
+  "homepage": "https://github.com/ErpanOmer/Balqish#readme",
+  "dependencies": {
+    "react-router-dom": "^5.2.0"
+  }
 }

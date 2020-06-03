@@ -1,10 +1,14 @@
 import React from 'react';
+import { HashRouter, Switch, Route } from 'react-router-dom'
+import Home from '@/views/home/index.tsx'
 
 function App () {
   return (
-    <div>
-      <span>5</span>
-    </div>
+    <HashRouter>
+      <Switch>
+        <Route exact path="/" component={ Home }/>
+      </Switch>
+    </HashRouter>
     )
 }
 

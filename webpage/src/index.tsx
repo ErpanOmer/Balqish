@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+//  框架样式
+import 'antd/dist/antd.less';
+//  项目样式
 import '@/style/index.scss';
 import App from './App';
 import * as serviceWorker from '@/utils/serviceWorker';
 
-
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>
+    <App />,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 
