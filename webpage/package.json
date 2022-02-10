@@ -16,7 +16,7 @@
     "customize-cra": "^0.9.1",
     "less": "^3.11.2",
     "less-loader": "^5.0.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-app-rewired": "^2.1.6",
     "react-dom": "^16.13.1",
